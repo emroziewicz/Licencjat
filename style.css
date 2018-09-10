@@ -1,0 +1,326 @@
+html, body{
+    margin:0;
+    padding:0;
+    background-color:white;
+    font-family:Lato, Arial, sans-serif;
+    font-size:16px;
+    color:#333333;
+	height: 100%;
+}
+
+a{
+    text-decoration:none;
+}
+
+/**************HEADER*****************/
+
+header{
+    max-width:100%;
+    height:90px;
+    padding:13px 24px;
+    margin:0 auto;
+}
+
+.logo{
+    max-width:100%;
+    height:auto;
+	float:left;
+}
+.logo img {
+	width: 350px;
+	height: 90px;
+}
+
+.logo h1{
+    margin:0;
+    padding:0;
+}
+
+
+/***************NAVIGATION**************/
+
+.top-nav{
+    margin:45px 0;
+    padding:0;
+    float:right;
+}
+
+.top-nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0; 
+}
+
+
+.top-nav ul li{
+    display:inline;
+    margin:0;
+}
+
+.top-nav ul li a{
+    text-transform:uppercase;
+    color:#333333;
+    margin:0 20px; 
+	font-weight: bold;
+}
+
+.top-nav ul li a:hover{
+    color:#9bdf19;
+    border-bottom:1px solid #9bdf19;   
+}
+
+.article-location{
+    clear:both;
+    position:absolute;
+    top:40%;
+    width:90%;
+	left: 9%;
+}
+
+.article-location ul{
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+    height:35px;
+    width:450px;
+}
+
+.article-location ul li{
+    display:inline;
+    margin:0 5px 0 0;
+    padding:5px;
+    color:#fffbf8;
+    line-height:35px;
+}
+
+.article-location ul li a{
+    color:#9bdf19;
+}
+
+.article-location ul li:last-of-type{
+    font-weight:bold;
+    margin:0;
+	color: white;
+}
+
+.head {
+	background-color:white;
+	width: 100%;
+	height: 300px;
+	margin: 0 -100px 0 0;
+	position: relative;
+}
+.sport {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	top: 60px;
+	left: 30px;
+	
+}
+/***********NAGLOWKI*****************/
+h2 {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+#foto {
+	max-width: 100%;
+	width: 1540px;
+	height: 300px;
+	margin: 0 -100px 0 0;
+	position:relative;
+}
+
+
+
+/******** FOOTER *********/
+.footer {
+	padding-top:25px;
+	padding-bottom:30px;
+	color: black;
+	text-align:center;
+	width:100%;
+	margin:0 auto;
+	clear:both;
+	margin:0 auto;
+	background-color:#9bdf19; 
+}
+/****************************SQUARES**************************/
+#container {
+	width: 1000px;
+	height: 450px;
+	margin: 60px auto 0;
+	background-color:white;
+}
+
+#square {
+  float:left;
+  width:300px;
+  height: 270px;
+  margin:10px ;
+  background-image:linear-gradient(white, #ececec);  
+   position: relative;
+  display: block; 
+}
+
+#square a {
+	color: white;
+	bottom: 0px;
+	margin: 15px;
+	float: right;
+	list-style-type:none;
+    background:#9bdf19;
+    height:25px;
+    border-radius: 20px;
+	width: 100px;
+	text-align: center;
+}
+
+#square a:hover {
+	color: #9bdf19;
+	bottom: 0px;
+	margin: 15px;
+	float: right;
+	list-style-type:none;
+    background:#ececec;
+    height:25px;
+    border-radius: 20px;
+	width: 100px;
+	text-align: center;
+}
+
+#wstep {
+	text-align: center;
+}
+
+#text_info {
+	height: 180px;
+}
+/***********************************************/
+#intro {
+	width: 970px;
+	height:50px;
+	color:black;
+	margin: 45px auto 0;
+	padding-bottom: 40px;
+}
+#article {
+	width: 970px;
+	height:100%;
+	color:black;
+	margin: 45px auto 0;
+}
+
+#tip1 {
+	width: 1000px;
+	height: 200px;
+	margin: 40px;
+	background-color:white;
+	float: right;
+}
+
+#text {
+	float: left;
+	width: 70%;
+	margin: 15px;
+	position: relative;
+	display: block;
+}
+
+#fot {
+	clear: right;
+}
+
+#fot img{
+	width: 200px;
+	height: 200px;
+}
+
+
+
+#pic {
+	width: 600px;
+	height: 450px;
+}
+#pic1 {
+	width: 400px;
+	height: 500px;
+}
+
+/***********************ICONS**********************/
+#container-body {
+	box-sizing: border-box;
+	min-height: 100%;
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 25px 25px;
+}
+.icons {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	height: 200px;
+	margin-left: 5%;
+}
+
+.icon {
+	margin: 0 auto;
+	width: 160px;
+	display: inline-block;
+	float: left;
+}
+.icon:hover {
+	filter: brightness(85%);
+}
+
+
+.i {
+	width: 140px;
+height:140px;
+}
+#skrot {
+	text-align: center;
+	margin: 15px;
+}
+
+#advise {
+	width: 80%;
+	height:130px;
+	border-color: #9bdf19;
+	border-style: double;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+#good {
+	text-align:center;
+}
+#list {
+	    list-style-type:none;
+}
+
+#div {
+	width: 250px;
+	height: 140px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/************************RESPONSIVE*******************/
+@media screen and (min-width:750px) and (max-width:1024px){
+
+	.top-nav ul li a{
+		margin:0 8px;    
+	} 
+.logo img {
+width: 250px;}
+
+#article { width: 600px;
+padding: 15px;}
+}

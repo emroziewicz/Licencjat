@@ -1,0 +1,132 @@
+<div class="menu">
+				<ul>
+					<li><a href=".html">TRENING1</a></li>
+					<li><a href=".html">TRENING2</a></li>
+					<li><a href=".html">TRENING3</a></li>
+					<li><a href=".html">TRENING4</a></li>
+				</ul>
+</div>
+
+			<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+			/*
+.main {
+	text-align: left;
+	margin-left: 160px;
+	margin-right:160px;
+	margin-top: 80px;
+}
+
+.main p {
+	margin-left: 240px;
+	margin-top: 100px;
+}
+*/
+
+.menu ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 2px;
+	padding: 0;
+}
+
+.menu ul {
+	width: 200px;
+	margin-top: -90px;
+	margin-bottom: 30px;
+
+}
+
+.menu ul a:link, ul a:visited {
+	display: block;
+	width: 186px;
+	text-decoration: none;
+	background-color: #efefef;
+	color: #000;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: Lato;
+	border-left-style: ridge;
+}
+
+.menu ul a:hover {
+	background-color:#9bdf19;
+	padding: 7px 3px 3px 7px;
+}
+
+/************* SQUARE ***********************/
+.title {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+}
+ 
+.title img {
+    display: block;
+    transition: all .6s ease-in-out;
+    width: 20em;
+	height: 11em;
+	margin: 15px;
+}
+ 
+.title:before, .title:after {
+    content: attr(data-title);
+    position: absolute;
+    text-align: center;
+    transition: all .6s ease-in-out;
+    width: 100%;
+}
+ 
+.title:before {
+    height: 100%;
+	color: black;
+}
+ 
+.title:after {
+    color: black;
+	overflow: hidden;
+	white-space: pre;
+}
+
+ 
+#uno.move:after {
+	bottom: -3em;
+	
+	}
+ 
+#uno.move:hover {
+	-webkit-transform: translateY(-20%);
+	-moz-transform: translateY(-20%);
+	transform: translateY(-20%);
+}
+ 
+#uno.move:hover:after {
+	bottom: 0;
+}
+ 
+.title.move.overlay:before {
+	top: 100%;
+	left: 0;
+	background: #9bdf19;
+	z-index: 1;
+	opacity: 0.6;
+}
+ 
+.title.move.overlay:hover:before {
+	top: 0;
+}
+
+
+		<div id="main">
+			<a href="przepisy/espresso.php" data-title="Dieterwis ten stanowi integralną część pracy licencjackiej y białkowe" class="title move overlay"><img src="b.JPG" alt="" /></a>
+			<a href="przepisy/espresso.php" data-title="Diety węglowodaowa" class="title move overlay"><img src="b.JPG" alt="" /></a>
+			<a href="przepisy/espresso.php" data-title="Espresso" class="title move overlay"><img src="b.JPG" alt="" /></a>
+			<a href="przepisy/espresso.php" data-title="Espresso" class="title move overlay"><img src="b.JPG" alt="" /></a>
+		</div>
+		
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);

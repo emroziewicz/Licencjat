@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>licencjat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" media="all">
+        <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="default.css" type="text/css" media="screen" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+        <script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1><a title="Przejdź na stronę główną" href="index.html"><img src="logo4.png" alt="Logotyp strony"></a></h1>
+            </div>
+           <nav class="top-nav">
+                <a href="#" id="menu-icon"></a>
+					<ul>
+						<li><a href="jakzaczac.html">Jak zacząć</a></li>
+						<li><a href="treningi.html">Treningi</a></li>
+						<li><a href="diety.html">Odżywianie</a></li>
+						<li><a href=".html">Przepisy</a></li>
+					</ul>
+            </nav>
+        </header>
+        
+   <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <a href="super_zywnosc.html"><img src="zenszen2.jpg" alt="Obrazek" title="#htmlcaption1" /></a>
+                <a href="skladniki.html"><img src="weglo2.jpg" alt="Obrazek" title="#htmlcaption2" /></a>
+                <a href="rolki.html"><img src="rolki2.jpg" alt="Obrazek" title="#htmlcaption3" /></a>
+            </div>
+        </div>
+        <div id="htmlcaption1" class="nivo-html-caption">
+            <h2><a href="super_zywnosc.html">Super żywność - naturalne doładowanie Twojej diety</a></h2>
+        </div>
+        <div id="htmlcaption2" class="nivo-html-caption">    
+            <h2><a href="skladniki.html">Poznaj podstawowe składniki Twojej diety</a></h2>
+        </div>
+        <div id="htmlcaption3" class="nivo-html-caption">    
+            <h2><a href="rolki.html">Rolki - sposób na akytwne spędzenie czasu</a></h2>
+        </div>
+        
+        
+        
+		<footer class="footer">
+            <p> Autorem niniejszego serwisu jest Ewelina Mroziewicz.<br> Serwis ten stanowi integralną część pracy licencjackiej 
+			(kierunek: Elektroniczne Przetwarzanie Informacji),<br>przygotowanej pod kierunkiem dr. hab. Grzegorza Bilińskiego, 
+			prof. ASP na Wydziale Zarządzania i Komunikacji Społecznej Uniwersytetu Jagiellońskiego. </p>
+        </footer>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider({
+                    effect:'fade',
+                    pauseTime:5000,
+                    controlNav:false,
+                });
+            });
+        </script>
+    </body>
+</html>
